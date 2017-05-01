@@ -1,9 +1,9 @@
-package clinic.programming.timetracker.core;
+package training.taylor.timetracker.core;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import clinic.programming.timetracker.core.dao.TimeEntry;
+import training.taylor.timetracker.core.dao.TimeEntry;
 
 import java.util.ArrayList;
 import java.util.List;

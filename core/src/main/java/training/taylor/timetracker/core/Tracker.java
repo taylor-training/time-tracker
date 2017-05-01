@@ -1,8 +1,8 @@
-package clinic.programming.timetracker.core;
+package training.taylor.timetracker.core;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import clinic.programming.timetracker.core.dao.TimeEntry;
+import training.taylor.timetracker.core.dao.TimeEntry;
 
 import java.util.List;
 
