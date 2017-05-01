@@ -12,7 +12,7 @@ import java.util.List;
  * Created by Jason on 6/19/2015.
  */
 @Configuration
-@ComponentScan("clinic.programming.timetracker.core")
+@ComponentScan("training.taylor.timetracker.core")
 public class TrackerCoreConfig {
 
     @Bean(name = "timesheet")
