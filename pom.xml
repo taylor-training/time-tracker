@@ -13,7 +13,7 @@
     <url>http://taylor.training/</url>
 
     <properties>
-        <spring.version>4.3.10.RELEASE</spring.version>
+        <spring.version>5.0.2.RELEASE</spring.version>
         <java.version>1.8</java.version>
         <junit.version>4.12</junit.version>
         <findbugs.version>3.0.5</findbugs.version>
