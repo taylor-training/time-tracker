@@ -56,6 +56,14 @@
                     <artifactId>maven-checkstyle-plugin</artifactId>
                     <version>${checkstyle.version}</version>
                 </plugin>
+                <!-- Fix for changes in Java 8 u181 and above -->
+                <plugin>
+                      <groupId>org.apache.maven.plugins</groupId>
+                      <artifactId>maven-surefire-plugin</artifactId>
+                      <configuration>
+                          <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+                      </configuration>
+                </plugin>
             </plugins>
         </pluginManagement>
     </build>
